@@ -1,6 +1,6 @@
 ---
 layout: paper
-paper: Intriguing properties of synthetic images: from generative adversarial networks to diffusion models
+paper: Intriguing properties of synthetic images\: from generative adversarial networks to diffusion models
 github_url: https://github.com/grip-unina/SyntheticImagesAnalysis
 authors:  
   - name: Riccardo Corvi
@@ -29,7 +29,7 @@ affiliations:
 
 # Intriguing properties of synthetic images: from generative adversarial networks to diffusion models
 
-[![Github](https://img.shields.io/badge/Github%20webpage-222222.svg?style=for-the-badge&logo=github)](https://grip-unina.github.io/SyntheticImagesAnalysis/)
+[![Github](https://img.shields.io/badge/Code%20%28Coming%20soon%29-222222.svg?style=for-the-badge&logo=github)](https://github.com/grip-unina/SyntheticImagesAnalysis/)
 [![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge)](https://doi.org/10.48550/arXiv.2304.06408)
 [![CVF](https://img.shields.io/badge/-CVF-6093BF.svg?style=for-the-badge)](https://openaccess.thecvf.com/content/CVPR2023W/WMF/html/Corvi_Intriguing_Properties_of_Synthetic_Images_From_Generative_Adversarial_Networks_to_CVPRW_2023_paper.html)
 [![GRIP](https://img.shields.io/badge/-GRIP-0888ef.svg?style=for-the-badge)](https://www.grip.unina.it)
@@ -38,7 +38,7 @@ affiliations:
 ## (Code Coming Soon)
 Official implementation of the paper: "Intriguing properties of synthetic images: from generative adversarial networks to diffusion models".
 
-<center><img src="./Preview.png" alt="Preview" width="80%" /></center>
+<center><img src="./Preview.png" alt="Preview" width="95%" /></center>
 
 
 ## Overview

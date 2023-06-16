@@ -11,7 +11,7 @@
 Official implementation of the paper: "Intriguing properties of synthetic images: from generative adversarial networks to diffusion models". 
 
 <p align="center">
- <img src="./docs/Preview.png" alt="Preview" width="80%" />
+ <img src="./docs/Preview.png" alt="Preview" width="95%" />
 </p>
 
 

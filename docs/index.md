@@ -1,6 +1,6 @@
 ---
 layout: paper
-paper: Intriguing properties of synthetic images\: from generative adversarial networks to diffusion models
+paper: Intriguing properties of synthetic images from generative adversarial networks to diffusion models
 github_url: https://github.com/grip-unina/SyntheticImagesAnalysis
 authors:  
   - name: Riccardo Corvi

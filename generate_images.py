@@ -51,8 +51,6 @@ def extraction(files_path, output_dir, output_code):
 
     dist_out = dict()
     dist_out['res_fft2_mean'] = res_fft2_mean
-    dist_out['res_fft2_std'] = np.std(res_fft2, 0)
-    dist_out['res_fft2_mlog'] = np.mean(np.log(res_fft2), 0)
     dist_out['res_fcorr_mean'] = res_fcorr_mean
 
     # saving figures
@@ -84,6 +82,7 @@ def extraction(files_path, output_dir, output_code):
     plt.yticks([])
     fig.savefig(figures_output_dir+'/acor_gray.png',
                 bbox_inches='tight', pad_inches=0.0)
+    np.savez(figures_output_dir+'/data.npz', **dist_out)
 
 
 if __name__ == "__main__":

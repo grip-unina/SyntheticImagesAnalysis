@@ -17,7 +17,7 @@ import glob
 import os
 import argparse
 from area import rescale_area
-from nl_analysis import get_denoiser
+from denoiser import get_denoiser
 
 import random
 

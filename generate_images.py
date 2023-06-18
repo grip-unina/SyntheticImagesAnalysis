@@ -36,16 +36,14 @@ def imread(filename):
 
 def extraction(files_path, output_dir, output_code):
 
-    print("Starting generation of fingerprints")
-    print(files_path)
+    print("Starting the generation of the fingerprints")
+    print("Path of the images " + files_path)
     filenames = glob.glob(files_path + "/*")
-    print(len(filenames))
     random.shuffle(filenames)
 
     fund = get_denoiser(1, True)
     siz = 222
     filenames = filenames[:1000]
-    print("Starting to generate fingerprints")
     res_fft2 = [fft2_area(fund(imread(_)), siz) for _ in tqdm(filenames)]
     res_fft2_mean = np.mean(res_fft2, 0)
     res_fcorr_mean = np.fft.ifftshift(np.real(np.fft.ifft2(
@@ -57,7 +55,7 @@ def extraction(files_path, output_dir, output_code):
     dist_out['res_fft2_mlog'] = np.mean(np.log(res_fft2), 0)
     dist_out['res_fcorr_mean'] = res_fcorr_mean
 
-    # save figures
+    # saving figures
 
     center_x = (res_fcorr_mean.shape[1]+1)//2
     center_y = (res_fcorr_mean.shape[0]+1)//2

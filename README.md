@@ -5,17 +5,37 @@
 [![CVF](https://img.shields.io/badge/-CVF-6093BF.svg?style=for-the-badge)](https://openaccess.thecvf.com/content/CVPR2023W/WMF/html/Corvi_Intriguing_Properties_of_Synthetic_Images_From_Generative_Adversarial_Networks_to_CVPRW_2023_paper.html)
 [![GRIP](https://img.shields.io/badge/-GRIP-0888ef.svg?style=for-the-badge)](https://www.grip.unina.it)
 
-
-
-## (Code Coming Soon)
-Official implementation of the paper: "Intriguing properties of synthetic images: from generative adversarial networks to diffusion models". 
-
 <p align="center">
  <img src="./docs/Preview.png" alt="Preview" width="95%" />
 </p>
 
 
+## Code
+Official implementation of the paper: "Intriguing properties of synthetic images: from generative adversarial networks to diffusion models". 
 
+In this repository, we provide the code to reproduce the experiments preset in the paper.
+We provide a script to generate the images of the power spectra and the autocorrelation of the fingerprint.
+To launch the script the following parameters should be provided.
+
+```
+python generate_images.py --files_path /path/to/the/folder/of/images --out_dir /path/to/folder/to/save/files --out_code name_of_folder
+```
+
+The following command is an example of how to launch the script on images of the test set of the repository present at this [link](https://github.com/grip-unina/DMimageDetection).
+
+```
+python generate_images.py --files_path ./TestSet/stable_diffusion_256 --out_dir ./output --out_code stable_diffusion
+```
+
+In this case, after launching the script a folder called output will be created. In it, there will be a folder named stable_diffusion containing two images, one of the power spectra and one of the autocorrelation.
+
+## Requirements
+
+![Pytorch](https://img.shields.io/badge/Pytorch-grey.svg?style=plastic)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-grey.svg?style=plastic)
+![tqdm](https://img.shields.io/badge/tqdm-grey.svg?style=plastic)
+![Pillow](https://img.shields.io/badge/Pillow-grey.svg?style=plastic)
+![numpy](https://img.shields.io/badge/numpy-grey.svg?style=plastic)
 
 ## Overview
 
@@ -23,14 +43,17 @@ Detecting fake images is becoming a major goal of computer vision. This need is 
 
 ## License
 
+The license of the code can be found in the LICENSE.md file.
+
 ## Bibtex 
 
 ```
-@inproceedings{corvi2023intriguing,
-  title={Intriguing properties of synthetic images: from generative adversarial networks to diffusion models},
-  author={Corvi, Riccardo and Cozzolino, Davide and Poggi, Giovanni and Nagano, Koki and Verdoliva, Luisa},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={973--982},
-  year={2023}
+@InProceedings{Corvi_2023_CVPR,
+    author    = {Corvi, Riccardo and Cozzolino, Davide and Poggi, Giovanni and Nagano, Koki and Verdoliva, Luisa},
+    title     = {Intriguing Properties of Synthetic Images: From Generative Adversarial Networks to Diffusion Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {973-982}
 }
 ```

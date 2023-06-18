@@ -26,7 +26,7 @@ affiliations:
 ---
 
 
-[![Github](https://img.shields.io/badge/Code%20%28Coming%20soon%29-222222.svg?style=for-the-badge&logo=github)](https://github.com/grip-unina/SyntheticImagesAnalysis/)
+[![Github](https://img.shields.io/badge/Github%20page%29-222222.svg?style=for-the-badge&logo=github)](https://github.com/grip-unina/SyntheticImagesAnalysis/)
 [![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge)](https://doi.org/10.48550/arXiv.2304.06408)
 [![CVF](https://img.shields.io/badge/-CVF-6093BF.svg?style=for-the-badge)](https://openaccess.thecvf.com/content/CVPR2023W/WMF/html/Corvi_Intriguing_Properties_of_Synthetic_Images_From_Generative_Adversarial_Networks_to_CVPRW_2023_paper.html)
 [![GRIP](https://img.shields.io/badge/-GRIP-0888ef.svg?style=for-the-badge)](https://www.grip.unina.it)
@@ -40,11 +40,12 @@ Detecting fake images is becoming a major goal of computer vision. This need is 
 ## Bibtex
 
 ```
-@inproceedings{corvi2023intriguing,
-  title={Intriguing properties of synthetic images: from generative adversarial networks to diffusion models},
-  author={Corvi, Riccardo and Cozzolino, Davide and Poggi, Giovanni and Nagano, Koki and Verdoliva, Luisa},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={973--982},
-  year={2023}
+@InProceedings{Corvi_2023_CVPR,
+    author    = {Corvi, Riccardo and Cozzolino, Davide and Poggi, Giovanni and Nagano, Koki and Verdoliva, Luisa},
+    title     = {Intriguing Properties of Synthetic Images: From Generative Adversarial Networks to Diffusion Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {973-982}
 }
 ```

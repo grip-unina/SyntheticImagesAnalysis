@@ -21,7 +21,7 @@ In order to launch the code, please download the denoiser's weight from the foll
 To launch the script the following parameters should be provided.
 
 ```
-python generate_images.py --files_path /path/to/the/folder/of/images --out_dir /path/to/folder/to/save/files --out_code name_of_folder
+python generate_images.py --files_path /path/to/the/folder/with/the/synthetic/images --out_dir /path/to/folder/to/save/generated/images --out_code name_of_subfolder
 ```
 
 The following command is an example of how to launch the script on images of the test set of the repository present at this [link](https://github.com/grip-unina/DMimageDetection).

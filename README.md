@@ -13,8 +13,11 @@
 ## Code
 Official implementation of the paper: "Intriguing properties of synthetic images: from generative adversarial networks to diffusion models". 
 
-In this repository, we provide the code to reproduce the experiments preset in the paper.
-We provide a script to generate the images of the power spectra and the autocorrelation of the fingerprint.
+In this repository, we provide the code to reproduce the experiments of the paper.
+
+We provide a script to generate the images showing the power spectra and the autocorrelation of the fingerprint.
+In order to launch the code, please download the denoiser's weight from the following [link](https://drive.google.com/file/d/1MvnHmtinwL1kNAUl1ikHsPKz5XIfCpFx/view?usp=sharing). Once extracted there should be a folder called DenoiserWeight. Please do not move or rename this folder.
+
 To launch the script the following parameters should be provided.
 
 ```

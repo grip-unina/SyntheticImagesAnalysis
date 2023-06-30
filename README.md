@@ -19,13 +19,13 @@ In order to launch the code, please download the denoiser's weight from the foll
 To launch the script the following parameters should be provided.
 
 ```
-python generate_images.py --files_path /path/to/the/folder/with/the/synthetic/images --out_dir /path/to/folder/to/save/generated/images --out_code name_of_subfolder
+python generate_images.py --files_path /path/to/the/folder/with/the/synthetic/images --out_dir /path/to/folder/to/save/generated/images --out_name name_of_subfolder
 ```
 
 The following command is an example of how to launch the script on images of the test set of the repository present at this [link](https://github.com/grip-unina/DMimageDetection).
 
 ```
-python generate_images.py --files_path ./TestSet/stable_diffusion_256 --out_dir ./output --out_code stable_diffusion
+python generate_images.py --files_path ./TestSet/stable_diffusion_256 --out_dir ./output --out_name stable_diffusion
 ```
 
 In this case, after launching the script a folder called output will be created. In it, there will be a folder named stable_diffusion containing two images, one of the power spectra and one of the autocorrelation.
@@ -36,13 +36,13 @@ We provide also a script to generate images showing the radial spectra and the a
 To script should be launched as follows.
 
 ```
-python generate_spectra.py --files_path /path/to/the/folder/with/the/synthetic/images --out_dir /path/to/folder/to/save/generated/images --out_code name_of_subfolder
+python generate_spectra.py --files_path /path/to/the/folder/with/the/synthetic/images --out_dir /path/to/folder/to/save/generated/images --out_name name_of_subfolder
 ```
 
 The following is an example on how to run this script on images of the dataset used previously.
 
 ```
-python generate_spectra.py --files_path ./TestSet/stable_diffusion_256 --out_dir ./output --out_code stable_diffusion
+python generate_spectra.py --files_path ./TestSet/stable_diffusion_256 --out_dir ./output --out_name stable_diffusion
 ```
 
 In this case, after launching the script a folder called output will be created, if necessary. In it, there will be a folder named stable_diffusion containing two images, one of the radial spectra and one of the angular spectra.
